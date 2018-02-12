@@ -1,0 +1,1 @@
+Tests are not written, because code was tested on codingbat.com.
