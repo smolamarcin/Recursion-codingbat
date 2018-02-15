@@ -9,8 +9,8 @@ public class ParenBitTest {
     @Test
     public void shouldDeleteParanthesis() {
         ParenBit parenBit = new ParenBit();
-        String givenString = "hello(not really)there";
-        String expected = "(not really)";
+        String givenString = "x(hello)";
+        String expected = "(hello)";
         assertEquals(parenBit.parenBit(givenString), expected);
 
     }
